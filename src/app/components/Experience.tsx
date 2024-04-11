@@ -9,7 +9,7 @@ import typeScript from  '../assets/LaguageAssets/TypescriptLogo.png';
 import graphQL from  '../assets/LaguageAssets/GraphQL.png';
 import git from  '../assets/LaguageAssets/git.jpg';
 import Java from '../assets/LaguageAssets/Java.png';
-import Spring from '../assets/LaguageAssets/Spring.png';
+import Spring from '../assets/LaguageAssets/Dart.jpg'
 
 const Experience = () => {
 
@@ -88,9 +88,9 @@ const Experience = () => {
 
             <div className=' grid sm:grid-cols-2 md:grid-cols-3 gap-8 text-center py-8 px-12 sm:p-0'>
 
-                {pLanguages.map(({id, title, image, style}) =>(
+                {pLanguages.map(({id, title , image, style}) =>(
                         <div key={id} className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}>
-                        <Image src={image} alt='dsfed'className='w-20 mx-auto' />
+                        <Image src={image} alt='dsfed' className='w-20 mx-auto' />
                         <p className='mt-4'>
                             {title}
                         </p>
